@@ -1,0 +1,50 @@
+.profile{
+  width:600px;
+}
+body{
+  margin:0;
+  padding-top:800px;
+  text-align:center;
+}
+#welcome{
+  position:absolute;
+  bottom:0;
+  display:table;
+  width:100%;
+  height:100%;
+background:linear-gradient(lightblue 0%,lightgreen 100%);
+z-index:8;
+}
+.parallax-inner{
+  display:table-cell;
+  vertical-align:middle;
+}
+#name{
+  font-size: 50px;
+  font-family: 'Itim', cursive;
+}
+.menu{
+
+  position:fixed;
+  top:0px;
+  margin-top:0px;
+  width:100%;
+  z-index:9;
+  background:white;
+}
+.links{
+    display:inline;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+padding-right:10px;
+font-family: 'Oswald', sans-serif;
+cursor:pointer;
+}
+#Bio{
+    padding:50px;
+}
+.name{
+  font-size: 50px;
+}
+
